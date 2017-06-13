@@ -7,10 +7,10 @@ This repository mainly uses Jupyter Notebooks as code containers due to its easy
 and you'll be able to start developing
 
 ### Used packages
-tqdm
-pandas
-numpy
-urllib2
-requests
-geopy
-json
+tqdm  
+pandas  
+numpy  
+urllib2  
+requests  
+geopy  
+json  
