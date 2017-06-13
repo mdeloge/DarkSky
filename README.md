@@ -19,9 +19,9 @@ json
 ### Basic_setup.ipynb
 This Jupyter Notebook contains the most basic code to fetch and store weather data using the DarkSky API. Three functions are defined:
 
-   url_builder: Builds a list of url's used in API calls for the DarkSky API  
-   f_t_c: Fahrenheit to Celsius convertor  
-   fetch_and_store_json: Fetches the JSON data for a specified fully formatted DarkSky url and stores this data plainly as daily JSON files locally. From hereonafter these files will be used, this reduces the amount of API calls (DarkSky's free tier is limited to 1000 calls per day)  
+  * __url_builder__: Builds a list of url's used in API calls for the DarkSky API  
+  * __f_t_c__: Fahrenheit to Celsius convertor  
+  * __fetch_and_store_json__: Fetches the JSON data for a specified fully formatted DarkSky url and stores this data plainly as daily JSON files locally. From hereonafter these files will be used, this reduces the amount of API calls (DarkSky's free tier is limited to 1000 calls per day)  
 
 
 
