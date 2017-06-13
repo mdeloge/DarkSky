@@ -1,0 +1,4 @@
+[Darksky]
+api_key: key
+api_key_secondary: key
+base_url: https://api.darksky.net/forecast/
