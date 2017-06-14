@@ -1,3 +1,5 @@
 *.cfg
 DarkSkySyncRelease.ipynb
 **/local_data
+**/parsed_data
+**/combined
