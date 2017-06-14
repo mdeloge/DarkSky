@@ -23,6 +23,8 @@ This Jupyter Notebook contains the most basic code to fetch and store weather da
   * __f_t_c__: Fahrenheit to Celsius convertor  
   * __fetch_and_store_json__: Fetches the JSON data for a specified fully formatted DarkSky url and stores this data plainly as daily JSON files locally. From hereonafter these files will be used, this reduces the amount of API calls (DarkSky's free tier is limited to 1000 calls per day)  
 
-
+### Local_data_parser.ipynb
+The goal here is to parse the locally synced DarkSky data to be able to use it in 15-minute based big data analytics using Tableau. In this case the data will be stored in Google BigQuery so extra processing is needed on the returned JSON data that is nog locally stored (see Basic_setup.ipynb)    
+Since DarkSky only provisions hourly data, this needs to be spread to allow for 15-minute based analytics.
 
 # Powered by the DarkSky API --> darksky.net
